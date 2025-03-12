@@ -1,7 +1,6 @@
 .paper-effect {
   border-radius: 40%;
-  transition: 
-    border-top-left-radius 0.3s ease 0.1s,
+  transition: border-top-left-radius 0.3s ease 0.1s,
     border-top-right-radius 0.3s ease 0.4s,
     border-bottom-right-radius 0.3s ease 0.1s,
     border-bottom-left-radius 0.3s ease 0.4s, transform 0.3s ease,
@@ -15,5 +14,6 @@
   border-bottom-right-radius: 3%;
   border-bottom-left-radius: 3%;
   transform: rotateX(5deg) rotateY(5deg);
-  box-shadow: 0 12px 24px 6px rgba(211, 7, 238, 0.4), 0 14px 26px 8px rgba(247, 17, 17, 0.993);
+  box-shadow: 0 12px 24px 6px rgba(211, 7, 238, 0.4),
+    0 14px 26px 8px rgba(247, 17, 17, 0.993);
 }
